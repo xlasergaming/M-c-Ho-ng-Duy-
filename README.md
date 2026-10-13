@@ -1,0 +1,28 @@
+# 15 tuần khổ luyện — AI for Automobile (BK-AUTO)
+
+Khoá Python và AI for Automobile
+
+| Tuần | Chủ đề | Mở trên Colab |
+|---|---|---|
+| 1 | Nền tảng, cú pháp cơ bản, vòng lặp và đọc file log cảm biến | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dongthethang2k15kkk/15-weeks-of-military-training/blob/main/week1/week_1.ipynb) |
+
+Các tuần sau được thêm vào bảng khi đến tuần đó.
+
+## Cách học
+
+1. Bấm nút "Open in Colab" của tuần hiện tại (cần đăng nhập Google).
+2. Vào `File > Save a copy in Drive` ngay từ đầu, rồi làm bài trên bản trong Drive của bạn. Bản mở từ link là bản của repo, không lưu được bài làm.
+3. Chạy ô đầu tiên. Ô này tự tải các file của tuần đó về máy ảo Colab, không cần cài gì thêm.
+4. Đọc bảng cú pháp, chạy các ô ví dụ, rồi làm bài tập. Mỗi bài tập có một ô kiểm tra ngay bên dưới.
+
+Mỗi tuần chỉ cần mở một notebook. Học tuần mới không phải tải lại file của tuần cũ.
+
+## Nộp bài
+
+1. Tạo repo của bạn từ template, chỉ làm một lần: bấm [Use this template](https://github.com/dongthethang2k15kkk/15-weeks-of-military-training/generate), đặt tên repo, chọn **Private**.
+2. Làm bài trên bản trong Drive của bạn. Khi xong, vào `File > Save a copy in GitHub` (dòng này chỉ có trên bản trong Drive, không có trên bản mở thẳng từ link), chọn repo của bạn, đường dẫn đúng thư mục của tuần (ví dụ `week1/week_1.ipynb`), ghi commit message dạng `week1: hoan thanh bai tap`. Lần lưu đầu Colab hỏi quyền truy cập GitHub, chọn cho phép.
+3. Mở tab **Actions** của repo. GitHub chạy lại notebook của bạn và chấm: dấu xanh là mọi bài đạt, dấu đỏ là còn bài sai, bấm vào để xem bài nào.
+
+## Dữ liệu
+
+Thư mục [data/](data/) là dữ liệu **mô phỏng** của một chuyến xe dài 180 giây, gồm bốn loại cảm biến: LiDAR đo khoảng cách phía trước, GPS (NMEA), OBD-II và IMU. Mô tả từng cột nằm trong [data/README.md](data/README.md).
